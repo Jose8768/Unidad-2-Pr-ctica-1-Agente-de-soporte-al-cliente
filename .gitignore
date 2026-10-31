@@ -1,0 +1,22 @@
+# ==============================================================================
+# .gitignore — Práctica 1: Mi Primer Agente de IA
+# ==============================================================================
+# Credenciales sensibles (¡NUNCA SUBIR A GIT!)
+.env
+client_secrets.json
+authorized_user.json
+token.env
+
+# Temporales de Python y entornos virtuales
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+ENV/
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
